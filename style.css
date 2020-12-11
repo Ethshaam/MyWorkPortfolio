@@ -189,6 +189,11 @@ h3, h2{
 }
 
 /* Modal Content */
+.
+iframe{
+    margin-left:50%;
+}
+
 .modal-content {
   background-color: #fefefe;
   margin: auto;
