@@ -1,8 +1,7 @@
-@media (min-width: 768px)
-    .col.sm-6{
+@media(min-height: 768px)
+    .col-sm-6{
         width:100%;
 }
-
 
 
 video{
