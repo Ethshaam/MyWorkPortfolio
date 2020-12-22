@@ -97,14 +97,13 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 
 .PortfolioModal{
-    width:50%;
+    width:60%;
     height:50px;
     border: black 2px solid;
     background-color:black;
     color:white;
-    margin-top:14%;
     margin-bottom: 5%;
-    margin-left:33%;
+    margin-left:42%;
     border-radius:10%;
     
 }
