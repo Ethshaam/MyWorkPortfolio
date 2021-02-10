@@ -53,7 +53,24 @@ img{
 body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
 
+.front-img {
+  /* The image used */
+  
+  background-image: url("images/3dbackgroundfrontpage.jpg");
+    
+    height: 100%;
+    width:100%;
+   
+*/
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Needed to position the navbar */
+  position: relative;
 
+}
 
 .bg-img {
   /* The image used */
@@ -193,4 +210,14 @@ iframe{
 #feedback {
     margin-top:400px;
     margin-bottom:5%;
+}
+
+#opening{
+    margin-top:15%;
+    margin-left:20%;
+    color:white;
+    font-size:40px;
+    background-color:black;
+    width:25%;
+    height:10%
 }
