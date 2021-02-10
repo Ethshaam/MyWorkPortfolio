@@ -9,7 +9,7 @@
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <script src="myscripts.js"></script>
-        
+        <script defer src="https://feedback.fish/ff.js?pid=ee4d401053724f"></script>
     </head>
 <body>
 
@@ -125,7 +125,7 @@
            
  
             
-                <img style="margin-left:33%;margin-top:50px" id="aboutMe" class="tictactoe" src="tictactoe.png">
+                <img style="margin-left:33%;margin-top:50px" id="aboutMe" class="tictactoe" src="images/3d-tic-tac-toe-tic-tac-toe-png-favpng-xzNT32BhZYkMVgtA4Qu8gxvhW.jpg">
                      <!-- Trigger the modal with a button -->
                     <button type="button" class="PortfolioModal" data-toggle="modal" data-target="#PythonModal" >Python projects: <br>TictacToe</button>
 
@@ -253,10 +253,30 @@
                         <div class="modal-content">
                           <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h4 class="modal-title">Cloud Computing</h4>
+                            <h4 class="modal-title">Storage</h4>
                           </div>
                           <div class="modal-body">
-                            
+                              <p> <i> Amazon Block Storage (ABS)</i> is a storage system which AWS provides. ABS comes added onto your EC2 instance. There are many different storage types you can have within AWS they are; <i>ABS, EBS (elastic block storage) </i> but this service can only be mounted if the ec2 instance has been launched within the same Availability zone. <i> An availability zone is a logical data center in a region. The main difference between S3 and EBS is that S3 is a persistant storage device and can be accessed from anywhere unlike EBS.  </i></p>
+                              
+                                <p>EBS is an block storage system that is best used for storing persistant data. As mentioned earlier it is a highly available storage for use with an ec2 AMI</p>
+                              <p>What is Persistant Storag? <br> Persistant storage is any data storage that retains data after the power to the device is off. Can also be referred to as <i>Non volatile Storage</i><br>Each EBS volume is automatically replicated to protect the user from component failure which offers the user high availability and durability. EBS is also consistent and runs low-latency performans<br> The user also has the ability to scale up and down within minutes,
+                              <br>
+                                <br>
+                                  <b>Block Storage vs Object Storage</b>
+                                  Block Storage you change only the block which contains the character. Object Storage is you have to change to whole file which requires updating. The difference has a major impact on the throughput, latency and cost of the storage solution
+                                  <br>
+                                  <br>
+                                  You can use ABS for the following uses:
+                                  <br>
+                                  Boot volumes and storage for EC2 instances
+                                  <br>
+                                  Data storage file system
+                                  <br>
+                                  Database hosts 
+                                  <br>
+                                  Enterprise applications
+                              
+                              </p>
                           </div>
                           <div class="modal-footer">
                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -413,10 +433,13 @@
             </div>
         <br>
         <br>
+            <br>
+            <h4>Feedback</h4>
+            <button data-feedback-fish style="margin-left:50%;margin-top:10%;width:200px;">
+              Feedback
+            </button>
 
-
-                
-
+            </div>
     </div>
  </body>
 </html>
